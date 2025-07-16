@@ -23,7 +23,8 @@ const PORT = process.env.PORT || 5000;
 // CORS Configuration - Allow multiple origins
 const allowedOrigins = [
   'http://localhost:3000',
-  'https://jeemasters.alphacodelabs.com'
+  'https://jeemasters.alphacodelabs.com',
+  'www.jeemasters.alphacodelabs.com',
 ];
 
 // Middleware
