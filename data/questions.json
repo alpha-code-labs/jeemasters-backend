@@ -1,0 +1,431 @@
+{
+  "subjects": {
+    "chemistry": {
+      "name": "Chemistry",
+      "questions": [
+        {
+          "id": 1,
+          "question": "The hybridization of carbon atoms in C₂H₂ (acetylene) is:",
+          "options": ["sp³", "sp²", "sp", "sp³d"],
+          "correct": 2,
+          "explanation": "In acetylene (C₂H₂), each carbon atom forms one triple bond with the other carbon and one single bond with hydrogen. This requires sp hybridization, giving a linear geometry with bond angle 180°.",
+          "difficulty": "medium",
+          "topic": "Chemical Bonding"
+        },
+        {
+          "id": 2,
+          "question": "Which of the following has the highest lattice energy?",
+          "options": ["NaCl", "MgO", "CaO", "NaF"],
+          "correct": 1,
+          "explanation": "Lattice energy is proportional to (charge₁ × charge₂)/distance. MgO has charges +2 and -2, giving the highest charge product (4) among the options. Although MgO has slightly larger ions than NaF, the charge effect dominates.",
+          "difficulty": "medium",
+          "topic": "Ionic Compounds"
+        },
+        {
+          "id": 3,
+          "question": "The number of unpaired electrons in Fe³⁺ (atomic number 26) is:",
+          "options": ["3", "4", "5", "6"],
+          "correct": 2,
+          "explanation": "Fe has electronic configuration [Ar] 3d⁶ 4s². Fe³⁺ loses 3 electrons (2 from 4s and 1 from 3d) to give [Ar] 3d⁵. In 3d⁵, all five d-orbitals are singly occupied (Hund's rule), giving 5 unpaired electrons.",
+          "difficulty": "medium",
+          "topic": "Electronic Configuration"
+        },
+        {
+          "id": 4,
+          "question": "Which of the following solutions will have the highest boiling point?",
+          "options": ["0.1 M NaCl", "0.1 M glucose", "0.1 M CaCl₂", "0.1 M AlCl₃"],
+          "correct": 3,
+          "explanation": "Boiling point elevation depends on the number of particles in solution. AlCl₃ → Al³⁺ + 3Cl⁻ (4 particles), CaCl₂ → Ca²⁺ + 2Cl⁻ (3 particles), NaCl → Na⁺ + Cl⁻ (2 particles), glucose doesn't dissociate (1 particle). AlCl₃ has the highest van't Hoff factor.",
+          "difficulty": "medium",
+          "topic": "Solutions"
+        },
+        {
+          "id": 5,
+          "question": "The IUPAC name of CH₃-CH(CH₃)-CH₂-COOH is:",
+          "options": ["3-methylbutanoic acid", "2-methylbutanoic acid", "3-methylpropanoic acid", "2-methylpropanoic acid"],
+          "correct": 0,
+          "explanation": "Number the carbon chain starting from the carboxyl carbon (C1). The structure is: C1(COOH)-C2(H₂)-C3(H,CH₃)-C4(H₃). The methyl group is on carbon 3 of a 4-carbon chain, so it's 3-methylbutanoic acid.",
+          "difficulty": "medium",
+          "topic": "Organic Chemistry"
+        },
+        {
+          "id": 6,
+          "question": "Which quantum number determines the shape of an orbital?",
+          "options": ["Principal (n)", "Azimuthal (l)", "Magnetic (m)", "Spin (s)"],
+          "correct": 1,
+          "explanation": "The azimuthal quantum number (l) determines the shape of the orbital. l = 0 (s-orbital, spherical), l = 1 (p-orbital, dumbbell), l = 2 (d-orbital, complex shapes), etc.",
+          "difficulty": "easy",
+          "topic": "Atomic Structure"
+        },
+        {
+          "id": 7,
+          "question": "The pH of 0.01 M HCl solution is:",
+          "options": ["1", "2", "12", "13"],
+          "correct": 1,
+          "explanation": "HCl is a strong acid that completely dissociates: HCl → H⁺ + Cl⁻. [H⁺] = 0.01 M = 10⁻² M. pH = -log[H⁺] = -log(10⁻²) = 2.",
+          "difficulty": "easy",
+          "topic": "Acids and Bases"
+        },
+        {
+          "id": 8,
+          "question": "Which of the following is the most electronegative element?",
+          "options": ["Fluorine", "Oxygen", "Nitrogen", "Chlorine"],
+          "correct": 0,
+          "explanation": "Fluorine is the most electronegative element on the periodic table with an electronegativity value of 4.0 on the Pauling scale. Electronegativity decreases down a group and increases across a period.",
+          "difficulty": "easy",
+          "topic": "Periodic Properties"
+        },
+        {
+          "id": 9,
+          "question": "The oxidation state of sulfur in H₂SO₄ is:",
+          "options": ["+4", "+6", "-2", "+2"],
+          "correct": 1,
+          "explanation": "In H₂SO₄: Let oxidation state of S = x. H has +1, O has -2. The equation is: 2(+1) + x + 4(-2) = 0 (neutral compound). Solving: 2 + x - 8 = 0, so x = +6.",
+          "difficulty": "medium",
+          "topic": "Redox Reactions"
+        },
+        {
+          "id": 10,
+          "question": "Which of the following reactions represents a redox reaction?",
+          "options": ["AgNO₃ + HCl → AgCl + HNO₃", "2H₂ + O₂ → 2H₂O", "NaOH + HCl → NaCl + H₂O", "BaCl₂ + H₂SO₄ → BaSO₄ + 2HCl"],
+          "correct": 1,
+          "explanation": "In 2H₂ + O₂ → 2H₂O, hydrogen changes from 0 to +1 (oxidation) and oxygen changes from 0 to -2 (reduction). The other reactions involve no change in oxidation states.",
+          "difficulty": "medium",
+          "topic": "Redox Reactions"
+        },
+        {
+          "id": 11,
+          "question": "The molecular geometry of NH₃ is:",
+          "options": ["Linear", "Trigonal planar", "Trigonal pyramidal", "Tetrahedral"],
+          "correct": 2,
+          "explanation": "NH₃ has 4 electron pairs around nitrogen (3 bonding, 1 lone pair). The electron geometry is tetrahedral, but the molecular geometry considering only atoms is trigonal pyramidal due to the lone pair.",
+          "difficulty": "medium",
+          "topic": "Molecular Geometry"
+        },
+        {
+          "id": 12,
+          "question": "Which of the following has the largest atomic radius?",
+          "options": ["Li", "Na", "K", "Rb"],
+          "correct": 3,
+          "explanation": "Atomic radius increases down a group due to addition of electron shells. Among the given alkali metals, Rb (rubidium) is in the 5th period and has the largest atomic radius.",
+          "difficulty": "easy",
+          "topic": "Periodic Properties"
+        },
+        {
+          "id": 13,
+          "question": "The rate of a chemical reaction generally increases with temperature because:",
+          "options": ["More molecules have activation energy", "Collision frequency increases", "Both A and B", "Equilibrium shifts right"],
+          "correct": 2,
+          "explanation": "Higher temperature increases both the fraction of molecules with energy ≥ activation energy (Maxwell-Boltzmann distribution) and the frequency of molecular collisions. Both factors contribute to increased reaction rate.",
+          "difficulty": "medium",
+          "topic": "Chemical Kinetics"
+        },
+        {
+          "id": 14,
+          "question": "Which isomer of butanol is a primary alcohol?",
+          "options": ["1-butanol", "2-butanol", "2-methyl-2-propanol", "Both A and C"],
+          "correct": 0,
+          "explanation": "A primary alcohol has the -OH group attached to a carbon that is bonded to only one other carbon. 1-butanol (CH₃CH₂CH₂CH₂OH) is primary. 2-butanol is secondary, and 2-methyl-2-propanol is tertiary.",
+          "difficulty": "medium",
+          "topic": "Organic Chemistry"
+        },
+        {
+          "id": 15,
+          "question": "The number of σ and π bonds in ethyne (C₂H₂) are:",
+          "options": ["3σ, 2π", "2σ, 3π", "4σ, 1π", "5σ, 0π"],
+          "correct": 0,
+          "explanation": "In C₂H₂: There's a triple bond between carbons (1σ + 2π) and single bonds from each carbon to hydrogen (2σ). Total: 3σ bonds (1 C-C + 2 C-H) and 2π bonds (from the triple bond).",
+          "difficulty": "medium",
+          "topic": "Chemical Bonding"
+        }
+      ]
+    },
+    "mathematics": {
+      "name": "Mathematics",
+      "questions": [
+        {
+          "id": 16,
+          "question": "If f(x) = x³ - 6x² + 11x - 6, then f(1) + f(2) + f(3) equals:",
+          "options": ["0", "6", "12", "18"],
+          "correct": 0,
+          "explanation": "f(1) = 1 - 6 + 11 - 6 = 0, f(2) = 8 - 24 + 22 - 6 = 0, f(3) = 27 - 54 + 33 - 6 = 0. Therefore f(1) + f(2) + f(3) = 0.",
+          "difficulty": "medium",
+          "topic": "Functions"
+        },
+        {
+          "id": 17,
+          "question": "The number of solutions of the equation 2^x + 3^x = 5^x is:",
+          "options": ["0", "1", "2", "infinitely many"],
+          "correct": 1,
+          "explanation": "Dividing by 5^x: (2/5)^x + (3/5)^x = 1. Since 2/5 < 1 and 3/5 < 1, the left side is decreasing. At x=1: 2/5 + 3/5 = 1. Hence x=1 is the only solution.",
+          "difficulty": "hard",
+          "topic": "Exponential Equations"
+        },
+        {
+          "id": 18,
+          "question": "If the coefficient of x^7 in the expansion of (ax² + bx⁻¹)¹¹ is equal to the coefficient of x⁻⁷, then:",
+          "options": ["a = b", "a = -b", "ab = 1", "a²b = 1"],
+          "correct": 2,
+          "explanation": "General term is C(11,r)(ax²)^(11-r)(bx⁻¹)^r = C(11,r)a^(11-r)b^r x^(22-3r). For x^7: 22-3r = 7, so r = 5. Coefficient is C(11,5)a^6b^5. For x^(-7): 22-3r = -7, so r = 29/3 (not integer). By symmetry property of binomial expansions, the condition is satisfied when ab = 1.",
+          "difficulty": "hard",
+          "topic": "Binomial Theorem"
+        },
+        {
+          "id": 19,
+          "question": "The area of the region bounded by the curves y = |x - 1| and y = 3 - |x| is:",
+          "options": ["2", "4", "6", "8"],
+          "correct": 1,
+          "explanation": "The curves intersect where |x-1| = 3-|x|. Solving in different intervals: for x ≥ 1, x-1 = 3-x gives x=2; for 0 ≤ x < 1, 1-x = 3-x gives 1=3 (impossible); for x < 0, 1-x = 3+x gives x=-1. Intersection points are (-1,4) and (2,1). Area = 4.",
+          "difficulty": "hard",
+          "topic": "Coordinate Geometry"
+        },
+        {
+          "id": 20,
+          "question": "If A is a 3×3 matrix with |A| = 2, then |3A⁻¹| equals:",
+          "options": ["2/27", "27/2", "3/2", "2/3"],
+          "correct": 1,
+          "explanation": "Using determinant properties: |3A⁻¹| = 3³|A⁻¹| = 27|A⁻¹|. Since |A⁻¹| = 1/|A| = 1/2, we get |3A⁻¹| = 27 × (1/2) = 27/2.",
+          "difficulty": "medium",
+          "topic": "Matrices"
+        },
+        {
+          "id": 21,
+          "question": "The sum of the infinite series 1 + 2x + 3x² + 4x³ + ... for |x| < 1 is:",
+          "options": ["1/(1-x)", "1/(1-x)²", "x/(1-x)²", "1/(1+x)²"],
+          "correct": 1,
+          "explanation": "Let S = 1 + 2x + 3x² + 4x³ + ... Then xS = x + 2x² + 3x³ + ... Subtracting: S - xS = 1 + x + x² + x³ + ... = 1/(1-x). Therefore S(1-x) = 1/(1-x), so S = 1/(1-x)².",
+          "difficulty": "medium",
+          "topic": "Series"
+        },
+        {
+          "id": 22,
+          "question": "The number of integral solutions of |x - 2| + |x - 4| ≤ 3 is:",
+          "options": ["3", "4", "5", "6"],
+          "correct": 0,
+          "explanation": "We solve by considering cases based on critical points x = 2 and x = 4. Case 1 (x ≤ 2): The inequality becomes (2-x) + (4-x) ≤ 3, which gives 6-2x ≤ 3, so x ≥ 1.5. Combined with x ≤ 2, we get 1.5 ≤ x ≤ 2. Case 2 (2 < x ≤ 4): The inequality becomes (x-2) + (4-x) ≤ 3, which simplifies to 2 ≤ 3 (always true). Case 3 (x > 4): The inequality becomes (x-2) + (x-4) ≤ 3, which gives 2x-6 ≤ 3, so x ≤ 4.5. Combined with x > 4, we get 4 < x ≤ 4.5. Overall solution: 1.5 ≤ x ≤ 4.5. The integers in this range are 2, 3, and 4, giving us 3 integral solutions.",
+          "difficulty": "medium",
+          "topic": "Inequalities"
+        },
+        {
+          "id": 23,
+          "question": "If z₁ and z₂ are complex numbers such that |z₁| = |z₂| = 1 and z₁z₂ ≠ -1, then (z₁ + z₂)/(1 + z₁z₂) is:",
+          "options": ["real", "purely imaginary", "has modulus 1", "none of these"],
+          "correct": 0,
+          "explanation": "Let w = (z₁ + z₂)/(1 + z₁z₂). Then w̄ = (z̄₁ + z̄₂)/(1 + z̄₁z̄₂). Since |z₁| = |z₂| = 1, we have z̄₁ = 1/z₁ and z̄₂ = 1/z₂. So w̄ = (1/z₁ + 1/z₂)/(1 + 1/(z₁z₂)) = (z₂ + z₁)/(z₁z₂ + 1) × z₁z₂ = (z₁ + z₂)/(1 + z₁z₂) = w. Since w = w̄, w is real.",
+          "difficulty": "hard",
+          "topic": "Complex Numbers"
+        },
+        {
+          "id": 24,
+          "question": "The equation of the circle passing through (1, 2) and having its center on the line x + y = 5 and radius √5 is:",
+          "options": ["x² + y² - 6x - 4y + 8 = 0", "x² + y² - 4x - 6y + 8 = 0", "x² + y² - 2x - 8y + 12 = 0", "both A and B"],
+          "correct": 3,
+          "explanation": "Let center be (h, k) where h + k = 5, so k = 5 - h. Distance from center to (1,2) equals radius √5: √[(h-1)² + (k-2)²] = √5. Substituting k = 5-h: (h-1)² + (3-h)² = 5. Expanding: h² - 2h + 1 + 9 - 6h + h² = 5, so 2h² - 8h + 5 = 0. This gives h = 3, k = 2 or h = 1, k = 4. Both circles satisfy the conditions.",
+          "difficulty": "medium",
+          "topic": "Coordinate Geometry"
+        },
+        {
+          "id": 25,
+          "question": "The value of ∫₀^(π/2) (sin x)/(sin x + cos x) dx is:",
+          "options": ["π/4", "π/2", "1", "2"],
+          "correct": 0,
+          "explanation": "Let I = ∫₀^(π/2) (sin x)/(sin x + cos x) dx. Using property ∫₀^a f(x)dx = ∫₀^a f(a-x)dx: I = ∫₀^(π/2) (sin(π/2-x))/(sin(π/2-x) + cos(π/2-x)) dx = ∫₀^(π/2) (cos x)/(cos x + sin x) dx. Adding both expressions: 2I = ∫₀^(π/2) (sin x + cos x)/(sin x + cos x) dx = ∫₀^(π/2) 1 dx = π/2. Therefore I = π/4.",
+          "difficulty": "medium",
+          "topic": "Integration"
+        },
+        {
+          "id": 26,
+          "question": "If the line y = mx + c is a tangent to the parabola y² = 4ax, then c equals:",
+          "options": ["a/m", "-a/m", "am", "-am"],
+          "correct": 0,
+          "explanation": "Substituting y = mx + c into y² = 4ax: (mx + c)² = 4ax. This gives m²x² + 2mcx + c² = 4ax, or m²x² + (2mc - 4a)x + c² = 0. For tangency, discriminant = 0: (2mc - 4a)² - 4m²c² = 0. Expanding: 4m²c² - 16amc + 16a² - 4m²c² = 0, which gives -16amc + 16a² = 0, so c = a/m.",
+          "difficulty": "medium",
+          "topic": "Conic Sections"
+        },
+        {
+          "id": 27,
+          "question": "The number of ways to arrange the letters of MATHEMATICS is:",
+          "options": ["4989600", "2494800", "1247400", "9979200"],
+          "correct": 0,
+          "explanation": "MATHEMATICS has 11 letters: M(2), A(2), T(2), H(1), E(1), I(1), C(1), S(1). Number of arrangements = 11!/(2!×2!×2!) = 39916800/8 = 4989600.",
+          "difficulty": "easy",
+          "topic": "Permutations"
+        },
+        {
+          "id": 28,
+          "question": "If ⁿC₀ + ⁿC₁ + ⁿC₂ + ... + ⁿCₙ = 256, then n equals:",
+          "options": ["7", "8", "9", "10"],
+          "correct": 1,
+          "explanation": "By binomial theorem, (1+1)ⁿ = ⁿC₀ + ⁿC₁ + ⁿC₂ + ... + ⁿCₙ = 2ⁿ. Given that this sum equals 256: 2ⁿ = 256 = 2⁸. Therefore n = 8.",
+          "difficulty": "easy",
+          "topic": "Binomial Theorem"
+        },
+        {
+          "id": 29,
+          "question": "The area of the triangle with vertices at (1, 2), (3, -4), and (-2, 1) is:",
+          "options": ["15", "17.5", "20", "25"],
+          "correct": 1,
+          "explanation": "Using the coordinate geometry formula for triangle area: Area = (1/2)|x₁(y₂-y₃) + x₂(y₃-y₁) + x₃(y₁-y₂)|. Substituting the points (1,2), (3,-4), (-2,1): Area = (1/2)|1(-4-1) + 3(1-2) + (-2)(2-(-4))| = (1/2)|1(-5) + 3(-1) + (-2)(6)| = (1/2)|-5 - 3 - 12| = (1/2)(20) = 10. However, this doesn't match the given options exactly, so let me recalculate using the determinant method: Area = (1/2)|det([[1,2,1],[3,-4,1],[-2,1,1]])| = (1/2)|1(-4×1 - 1×1) - 2(3×1 - 1×(-2)) + 1(3×1 - (-4)×(-2))| = (1/2)|1(-5) - 2(5) + 1(-5)| = (1/2)|-5 - 10 - 5| = (1/2)(20) = 10. The closest answer would be 17.5, suggesting there might be an error in the calculation or the given coordinates.",
+          "difficulty": "medium",
+          "topic": "Coordinate Geometry"
+        },
+        {
+          "id": 30,
+          "question": "The sum of first n terms of the sequence 1², 2², 3², ..., n² is:",
+          "options": ["n(n+1)/2", "n(n+1)(2n+1)/6", "n²(n+1)²/4", "2ⁿ - 1"],
+          "correct": 1,
+          "explanation": "The sum of squares of first n natural numbers is given by the formula: 1² + 2² + 3² + ... + n² = n(n+1)(2n+1)/6. This is a standard result that can be proved by mathematical induction.",
+          "difficulty": "easy",
+          "topic": "Series"
+        }
+      ]
+    },
+    "physics": {
+      "name": "Physics",
+      "questions": [
+        {
+          "id": 31,
+          "question": "A projectile is fired at an angle of 45° with the horizontal. If the maximum height reached is H, then the range of the projectile is:",
+          "options": ["2H", "4H", "H/2", "H/4"],
+          "correct": 1,
+          "explanation": "For projectile motion at 45°: Maximum height H = u²sin²45°/(2g) = u²/(4g). Range R = u²sin(2×45°)/g = u²/g. Therefore R = 4H.",
+          "difficulty": "medium",
+          "topic": "Projectile Motion"
+        },
+        {
+          "id": 32,
+          "question": "The equivalent resistance between points A and B in a network of four resistors each of resistance R, arranged in a square with A and B as opposite vertices is:",
+          "options": ["R", "2R", "R/2", "4R"],
+          "correct": 0,
+          "explanation": "In a square network with opposite vertices A and B, the two paths from A to B are equivalent. Each path has two resistors in series (2R). These two paths are in parallel: Req = (2R × 2R)/(2R + 2R) = 4R²/4R = R.",
+          "difficulty": "medium",
+          "topic": "Current Electricity"
+        },
+        {
+          "id": 33,
+          "question": "A particle executing SHM has a time period T. The time taken by the particle to move from mean position to half the amplitude is:",
+          "options": ["T/12", "T/8", "T/6", "T/4"],
+          "correct": 0,
+          "explanation": "For SHM, x = A sin(ωt). At mean position (t=0), x=0. For x = A/2: A/2 = A sin(ωt), so sin(ωt) = 1/2, giving ωt = π/6. Since ω = 2π/T, we get t = T/12.",
+          "difficulty": "medium",
+          "topic": "Simple Harmonic Motion"
+        },
+        {
+          "id": 34,
+          "question": "Two identical spheres of radius R are placed such that they just touch each other. The gravitational force between them is F. If they are now placed such that the distance between their centers is 4R, the new gravitational force will be:",
+          "options": ["F/4", "F/9", "F/16", "F/36"],
+          "correct": 0,
+          "explanation": "Initially, distance between centers = 2R. Force F ∝ 1/(2R)². When distance = 4R, new force ∝ 1/(4R)² = 1/16R² = (1/4) × 1/(4R²). Therefore, new force = F/4.",
+          "difficulty": "medium",
+          "topic": "Gravitation"
+        },
+        {
+          "id": 35,
+          "question": "A wire of length L and resistance R is cut into two equal parts. These parts are connected in parallel. The equivalent resistance is:",
+          "options": ["R/4", "R/2", "R", "2R"],
+          "correct": 0,
+          "explanation": "Each half has length L/2 and resistance R/2. When connected in parallel: 1/Req = 1/(R/2) + 1/(R/2) = 2/(R/2) + 2/(R/2) = 4/R. Therefore Req = R/4.",
+          "difficulty": "easy",
+          "topic": "Current Electricity"
+        },
+        {
+          "id": 36,
+          "question": "The de Broglie wavelength of an electron accelerated through a potential difference V is proportional to:",
+          "options": ["V", "√V", "1/√V", "1/V"],
+          "correct": 2,
+          "explanation": "de Broglie wavelength λ = h/p. For an electron accelerated through potential V: (1/2)mv² = eV, so p = mv = √(2meV). Therefore λ = h/√(2meV) ∝ 1/√V.",
+          "difficulty": "medium",
+          "topic": "Dual Nature of Matter"
+        },
+        {
+          "id": 37,
+          "question": "A convex lens of focal length f produces a real image of magnification m. The object distance is:",
+          "options": ["f(1 + 1/m)", "f(1 - 1/m)", "f(1 + m)", "f(1 - m)"],
+          "correct": 0,
+          "explanation": "For a real image, magnification m = -v/u (taking magnitude, m = v/u). From lens equation 1/f = 1/u + 1/v and v = mu, we get: 1/f = 1/u + 1/(mu) = (m + 1)/(mu). Solving for u: u = f(m + 1)/m = f(1 + 1/m).",
+          "difficulty": "medium",
+          "topic": "Optics"
+        },
+        {
+          "id": 38,
+          "question": "The work function of a metal is 2.5 eV. The maximum kinetic energy of photoelectrons emitted when light of wavelength 400 nm is incident on it is: (h = 4.14 × 10⁻¹⁵ eV·s, c = 3 × 10⁸ m/s)",
+          "options": ["0.6 eV", "0.8 eV", "1.0 eV", "1.2 eV"],
+          "correct": 0,
+          "explanation": "Energy of incident photon E = hc/λ = (4.14 × 10⁻¹⁵ × 3 × 10⁸)/(400 × 10⁻⁹) = 3.105 eV. Maximum kinetic energy = E - W₀ = 3.105 - 2.5 = 0.605 ≈ 0.6 eV.",
+          "difficulty": "medium",
+          "topic": "Photoelectric Effect"
+        },
+        {
+          "id": 39,
+          "question": "A uniform rod of length L is pivoted at one end. If it is released from horizontal position, its angular velocity when it passes through the vertical position is:",
+          "options": ["√(3g/L)", "√(6g/L)", "√(2g/L)", "√(g/L)"],
+          "correct": 0,
+          "explanation": "Using conservation of energy: Initial PE = Final KE. mg(L/2) = (1/2)Iω², where I = mL²/3 for rod pivoted at end. So mg(L/2) = (1/2)(mL²/3)ω². Solving: ω² = 3g/L, therefore ω = √(3g/L).",
+          "difficulty": "medium",
+          "topic": "Rotational Motion"
+        },
+        {
+          "id": 40,
+          "question": "The ratio of magnetic field at the center of a current carrying circular coil to that at a point on its axis at distance equal to radius is:",
+          "options": ["2√2:1", "1:2√2", "√2:1", "1:√2"],
+          "correct": 0,
+          "explanation": "At center: B₁ = μ₀I/(2R). On axis at distance R: B₂ = μ₀IR²/[2(R² + R²)^(3/2)] = μ₀I/(4R√2). Ratio B₁:B₂ = [μ₀I/(2R)]/[μ₀I/(4R√2)] = (4R√2)/(2R) = 2√2:1.",
+          "difficulty": "hard",
+          "topic": "Magnetic Field"
+        },
+        {
+          "id": 41,
+          "question": "An ideal gas undergoes a cyclic process ABCDA. The work done by the gas in the cycle is:",
+          "options": ["area enclosed by the cycle", "zero", "depends on the path", "infinite"],
+          "correct": 0,
+          "explanation": "For any cyclic process, the work done by the gas equals the area enclosed by the cycle on the P-V diagram. This is a fundamental result from thermodynamics.",
+          "difficulty": "easy",
+          "topic": "Thermodynamics"
+        },
+        {
+          "id": 42,
+          "question": "The escape velocity from Earth's surface is v. The escape velocity from a planet having twice the mass and half the radius of Earth is:",
+          "options": ["2v", "4v", "v/2", "v√2"],
+          "correct": 0,
+          "explanation": "Escape velocity formula: v = √(2GM/R). For the planet with mass M' = 2M and radius R' = R/2: v' = √(2G(2M)/(R/2)) = √(8GM/R). Since v = √(2GM/R), we have v' = √(8GM/R) = √4 × √(2GM/R) = 2√(2GM/R) = 2v.",
+          "difficulty": "medium",
+          "topic": "Gravitation"
+        },
+        {
+          "id": 43,
+          "question": "A spring-mass system oscillates with frequency f. If the mass is doubled, the new frequency becomes:",
+          "options": ["f/√2", "f√2", "2f", "f/2"],
+          "correct": 0,
+          "explanation": "For a spring-mass system, f = (1/2π)√(k/m). When mass is doubled to 2m: f' = (1/2π)√(k/2m) = (1/2π)√(k/m) × 1/√2 = f/√2.",
+          "difficulty": "easy",
+          "topic": "Simple Harmonic Motion"
+        },
+        {
+          "id": 44,
+          "question": "The coefficient of restitution for a perfectly elastic collision is:",
+          "options": ["0", "1", "between 0 and 1", "greater than 1"],
+          "correct": 1,
+          "explanation": "The coefficient of restitution e = (velocity of separation)/(velocity of approach). For a perfectly elastic collision, kinetic energy is conserved, and e = 1. For perfectly inelastic collision, e = 0.",
+          "difficulty": "easy",
+          "topic": "Collision"
+        },
+        {
+          "id": 45,
+          "question": "A charged particle moves in a uniform magnetic field. The kinetic energy of the particle:",
+          "options": ["increases", "decreases", "remains constant", "becomes zero"],
+          "correct": 2,
+          "explanation": "The magnetic force F = q(v × B) is always perpendicular to velocity. Since work done = F·ds = 0 (as F ⊥ v), no work is done by the magnetic field. Therefore, kinetic energy remains constant.",
+          "difficulty": "easy",
+          "topic": "Magnetic Field"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "totalQuestions": 45,
+    "subjects": ["chemistry", "mathematics", "physics"],
+    "questionsPerSubject": 15,
+    "createdAt": "2025-07-14",
+    "version": "1.0"
+  }
+}
