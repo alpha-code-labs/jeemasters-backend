@@ -24,7 +24,7 @@ const PORT = process.env.PORT || 5000;
 const allowedOrigins = [
   'http://localhost:3000',
   'https://jeemasters.alphacodelabs.com',
-  'www.jeemasters.alphacodelabs.com',
+  'https://www.jeemasters.alphacodelabs.com',
 ];
 
 // Middleware
